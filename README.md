@@ -24,3 +24,26 @@ music-app-proxy-metrics-analysis/
 │   └── styles.py
 │
 └── README.md
+```
+
+## Main Methods
+
+The analysis includes:
+
+- basic data quality checks
+
+- exploratory data analysis
+
+- conversion comparison by feature
+
+- point-biserial correlation for numeric features
+
+- Chi-square tests with Phi coefficient for binary features
+
+- Chi-square test with Cramér’s V for categorical features
+
+- Spearman correlation to check predictor overlap
+
+- VIF to check multicollinearity
+
+- Trial Engagement Index construction
